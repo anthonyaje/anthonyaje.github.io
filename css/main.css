@@ -39,6 +39,10 @@ a:hover {
 a:link {
 	color: #333;
 }
+a:visited{
+	color: #333;
+}
+
 img {
 	float: left;
 	width: 10%;
