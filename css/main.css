@@ -19,7 +19,7 @@ a {
 }
 a:hover {
     text-decoration: underline;
-    color: #d5d5d5
+    color: #d5d5d5;
 }
 a:link {
 	color: #333;
@@ -37,8 +37,8 @@ h1 {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
 }
 p {
-    font-size: 1.5em;
-    line-height: 1.4em;
+    font-size: 1.3em;
+    line-height: 1.5em;
     color: #333;
 }
 footer {
