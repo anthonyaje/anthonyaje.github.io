@@ -2,17 +2,32 @@ body {
     margin: auto;
     width: 80%;
 }
-nav ul, footer ul {
+nav ul {
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
-    padding: 0px;
+    padding: 5px;
     list-style: none;
 	font-size: 1.5em;
+    border-bottom: 1px solid #d5d5d5;
+	
 }
+footer ul {
+    font-family:'Helvetica', 'Arial', 'Sans-Serif';
+    padding: 5px;
+    list-style: none;
+	font-size: 1.5em;
+    border-top: 1px solid #d5d5d5;
+}
+
 nav ul li, footer ul li {
     display: inline;
     margin-right: 20px;
-
 }
+
+div {
+	text-align: justify;
+    text-justify: inter-word;
+}
+
 a {
     text-decoration: none;
     color: #999;
@@ -26,24 +41,45 @@ a:link {
 }
 img {
 	float: left;
-	width: 15%;
+	width: 10%;
 	height: auto;
     margin-right: 3%;
 }
 
 
 h1 {
-    font-size: 2em;
+    font-size: 1.8em;
     font-family:'Helvetica', 'Arial', 'Sans-Serif';
+}
+
+hr {
+     color: #d5d5d5;
+	 border-top: 1px solid; 
+	 display: block;
 }
 p {
     font-size: 1.3em;
-    line-height: 1.5em;
+    line-height: 1.7em;
     color: #333;
 }
-footer {
-    border-top: 1px solid #d5d5d5;
-    font-size: 0.8em;
+
+edu1 {
+	font-family:'Sans-Serif';
+    font-size: 1.3em;
+    color: #333;
+}
+edu2 {
+	font-family:'Sans-Serif';
+    font-size: 1.0em;
+	line-height: 1.3em;
+    color: #696969;
+}
+edu3 {
+	font-family:'Sans-Serif';
+    font-size: 1.1em;
+	line-height: 1.3em;
+	margin-left: 3%;
+    color: #696969;
 }
 
 ul.posts { 

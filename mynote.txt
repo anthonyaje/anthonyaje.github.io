@@ -1,0 +1,8 @@
+website note:
+- blog is not very up to date.
+http://aje-in-hk.blogspot.ca/
+http://aje-note.blogspot.ca/
+https://www.blogger.com/blogger.g?blogID=7265235108732350212	 
+
+Dev note:
+1. In windows to push github via ssh URI, start pageant.exe (is the program hosting ssh private key)
